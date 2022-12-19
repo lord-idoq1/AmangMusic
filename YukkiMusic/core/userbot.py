@@ -119,9 +119,9 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("TeamYM")
-                await self.three.join_chat("TheYukki")
-                await self.three.join_chat("YukkiSupport")
+                await self.three.join_chat("catalog_maha")
+                await self.three.join_chat("mahayabanknih")
+                await self.three.join_chat("mahayabanknih")
             except:
                 pass
             assistants.append(3)
@@ -150,9 +150,9 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("TeamYM")
-                await self.four.join_chat("TheYukki")
-                await self.four.join_chat("YukkiSupport")
+                await self.four.join_chat("catalog_maha")
+                await self.four.join_chat("mahayabanknih")
+                await self.four.join_chat("mahayabanknih")
             except:
                 pass
             assistants.append(4)
@@ -181,9 +181,9 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("TeamYM")
-                await self.five.join_chat("TheYukki")
-                await self.five.join_chat("YukkiSupport")
+                await self.five.join_chat("catalog_maha")
+                await self.five.join_chat("mahayabanknih")
+                await self.five.join_chat("mahayabanknih")
             except:
                 pass
             assistants.append(5)
